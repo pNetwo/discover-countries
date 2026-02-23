@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* =========================================
+     1. Cores de Fundo (Backgrounds)
+  ========================================= */
+  --bg-background: #121214;
+  --bg-card: #202024;
+  --bg-input: #29292e;
+
+  /* =========================================
+     2. Cores de Texto (Tipografia)
+  ========================================= */
+  --text-title: #ffffff;
+  --text-body: #c4c4cc;
+  --text-muted: #8d8d99;
+
+  /* =========================================
+     3. Cores de Ação (Botões e Destaques)
+  ========================================= */
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --border-color: #323238;
+
+  /* =========================================
+     4. Cores de Estado do Jogo (Feedback)
+  ========================================= */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+}
+
+body {
+  background-color: var(--bg-background);
+  color: var(--text-body);
+
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  width: 550px;
+}
+
+button {
+  cursor: pointer;
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}

@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  & img {
+    width: 21.875rem;
+  }
+
+  & div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & strong {
+      color: var(--color-warning);
+    }
+
+    & button {
+      width: 2rem;
+      height: 2rem;
+      background: none;
+      border: none;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      color: var(--color-primary);
+
+      transition: ease-in-out 0.5s;
+
+      &:hover {
+        color: var(--color-primary-hover);
+        scale: 1.2;
+        animation: rotateIcon 1.5s linear infinite;
+      }
+    }
+  }
+}
+
+@keyframes rotateIcon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
