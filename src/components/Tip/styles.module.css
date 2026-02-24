@@ -1,0 +1,44 @@
+.tipContainer {
+  margin-top: 2.5rem;
+  width: 100%;
+
+  background-color: var(--bg-card);
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+  & .flagWrapper {
+    margin-top: 2rem;
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    & img {
+      width: 20rem;
+      border-radius: .5rem;
+    }
+  }
+}
+
+.tipWrapper {
+  padding: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  & .icon { 
+    color: var(--color-primary);
+  }
+
+  & h3 {
+    font-size: 1.3rem;
+    color: var(--text-body);
+  }
+
+  & p {
+    color: var(--text-muted);
+  }
+}
