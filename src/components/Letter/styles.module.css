@@ -1,0 +1,30 @@
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 3.375rem;
+  height: 3.375rem;
+
+  border-radius: 0.5rem;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  background-color: var(--bg-card);
+}
+
+.letterSmall {
+  height: 2.82rem;
+  width: 2.82rem;
+}
+
+.letterSuccess {
+  color: var(--color-success);
+  border: 2px solid var(--color-success);
+}
+
+.letterError {
+  color: var(--color-error);
+  border: 2px solid var(--color-error);
+}

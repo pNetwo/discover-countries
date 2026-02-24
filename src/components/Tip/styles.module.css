@@ -1,5 +1,7 @@
 .tipContainer {
   margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+
   width: 100%;
 
   background-color: var(--bg-card);
@@ -28,7 +30,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-
+  
   & .icon { 
     color: var(--color-primary);
   }

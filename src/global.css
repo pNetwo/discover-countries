@@ -33,7 +33,6 @@
   --color-warning: #f59e0b;
   --color-error: #ef4444;
 }
-
 body {
   background-color: var(--bg-background);
   color: var(--text-body);
@@ -43,13 +42,4 @@ body {
 
 .container {
   width: 550px;
-}
-
-button {
-  cursor: pointer;
-  transition: filter 0.2s;
-
-  &:hover {
-    filter: brightness(0.9);
-  }
 }

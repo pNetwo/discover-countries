@@ -1,0 +1,24 @@
+.input {
+  width: 2.82rem;
+  height: 2.82rem;
+
+  background-color: var(--bg-card);
+  border: 2px solid var(--border-color);
+  border-radius: 0.5rem;
+  outline: none;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--text-body);
+  caret-color: var(--text-body);
+
+  transition: all 0.3s ease-in-out;
+
+  &:focus {
+    background-color: #28282c;
+    border: 2px solid var(--color-primary);
+  }
+}

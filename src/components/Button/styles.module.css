@@ -1,0 +1,23 @@
+.button {
+  width: 6.625rem;
+  height: 2.82rem;
+
+  cursor: pointer;  
+
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+
+  font-family: "Nunito", sans-serif;
+  color: var(--text-title);
+
+  background-color: var(--color-primary);
+  border: 2px solid var(--border-color);
+  border-radius: .5rem;
+
+  transition: .3s;
+
+  &:hover {
+    background-color: var(--color-primary-hover);
+    border: 2px solid var(--bg-background);
+  }
+}
