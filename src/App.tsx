@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import styles from "./app.module.css";
 import { Button } from "./components/Button";
 
@@ -8,27 +9,34 @@ import { LettersUsed } from "./components/LettersUsed";
 import { Tip } from "./components/Tip";
 
 import { useGameAttempts } from "./hooks/useAttempts";
+import { useGame } from "./hooks/useStartGame";
 
 export default function App() {
+  const { country, startGame, attempt, letter } = useGame();
   const { current, max, onRestart } = useGameAttempts();
+
+  useEffect(() => {
+    startGame();
+  }, []);
+
+  if (!country) {
+    return;
+  }
 
   return (
     <div className={styles.container}>
-      <Header current={current} max={max} onRestart={onRestart} />
+      <Header current={attempt} max={max} onRestart={onRestart} />
 
       <Tip
-        name="Brasil"
-        flag="https://flagpedia.net/data/flags/w580/br.webp"
-        tip="É conhecido pelo carnaval e samba."
+        name={country.name}
+        flag={country.flag}
+        tip={country.tip}
       />
 
       <div className={styles.letterWrapper}>
-        <Letter value="B" />
-        <Letter value="R" />
-        <Letter value="A" />
-        <Letter value="S" />
-        <Letter value="I" />
-        <Letter value="L" />
+        {country.name.split("").map(() => (
+          <Letter value="" />
+        ))}
       </div>
 
       <h4>Palpites</h4>
@@ -38,10 +46,9 @@ export default function App() {
         <Button title="Confirmar" />
       </div>
 
-      <hr className={styles.divisor}/>
+      <hr className={styles.divisor} />
 
       <LettersUsed />
-
     </div>
   );
 }
