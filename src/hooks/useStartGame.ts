@@ -42,13 +42,14 @@ export function useGame() {
     setTimeout(() => {
       if (score === country.name.length) {
         gameCompleted(`Parabéns, você acertou o país.`);
+        return;
       }
-
       const attemptLimit = country.name.length + 5;
       if (lettersUsed.length === attemptLimit) {
         gameCompleted(
           `Que pena, você usou todas as tentativas. A resposta é: ${country.name}`,
         );
+        return;
       }
     }, 200);
   }
