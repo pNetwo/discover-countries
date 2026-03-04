@@ -13,12 +13,6 @@ export const COUNTRIES_DATA: Countries[] = [
     flag: "https://flagpedia.net/data/flags/w580/br.webp",
   },
   {
-    id: "US",
-    name: "EstadosUnidos",
-    tip: "Famoso por Hollywood e pela Estátua da Liberdade.",
-    flag: "https://flagpedia.net/data/flags/w580/us.webp",
-  },
-  {
     id: "JP",
     name: "Japao",
     tip: "Conhecido como a Terra do Sol Nascente e pelo sushi.",
@@ -85,12 +79,6 @@ export const COUNTRIES_DATA: Countries[] = [
     flag: "https://flagpedia.net/data/flags/w580/es.webp",
   },
   {
-    id: "GB",
-    name: "ReinoUnido",
-    tip: "Terra da realeza, do Big Ben e do chá da tarde.",
-    flag: "https://flagpedia.net/data/flags/w580/gb.webp",
-  },
-  {
     id: "CN",
     name: "China",
     tip: "Lar da Grande Muralha e dos ursos panda.",
@@ -103,34 +91,16 @@ export const COUNTRIES_DATA: Countries[] = [
     flag: "https://flagpedia.net/data/flags/w580/in.webp",
   },
   {
-    id: "ZA",
-    name: "AfricadoSul",
-    tip: "Conhecida pelos safáris e por ter três capitais.",
-    flag: "https://flagpedia.net/data/flags/w580/za.webp",
-  },
-  {
     id: "RU",
     name: "Russia",
     tip: "O maior país do mundo, famoso pelo frio e pela Praça Vermelha.",
     flag: "https://flagpedia.net/data/flags/w580/ru.webp",
   },
   {
-    id: "KR",
-    name: "CoreiadoSul",
-    tip: "Famosa pelo K-pop, doramas e tecnologia avançada.",
-    flag: "https://flagpedia.net/data/flags/w580/kr.webp",
-  },
-  {
     id: "TR",
     name: "Turquia",
     tip: "País que divide Europa e Ásia, famoso pelos balões da Capadócia.",
     flag: "https://flagpedia.net/data/flags/w580/tr.webp",
-  },
-  {
-    id: "NZ",
-    name: "NovaZelandia",
-    tip: "Conhecida como cenário de O Senhor dos Anéis e pelo povo Maori.",
-    flag: "https://flagpedia.net/data/flags/w580/nz.webp",
   },
   {
     id: "CH",
@@ -281,18 +251,6 @@ export const COUNTRIES_DATA: Countries[] = [
     name: "Singapura",
     tip: "Cidade-estado com leis rígidas de limpeza e um aeroporto luxuoso.",
     flag: "https://flagpedia.net/data/flags/w580/sg.webp",
-  },
-  {
-    id: "SA",
-    name: "ArabiaSaudita",
-    tip: "Berço do Islã e abriga as cidades sagradas de Meca e Medina.",
-    flag: "https://flagpedia.net/data/flags/w580/sa.webp",
-  },
-  {
-    id: "AE",
-    name: "EmiradosArabes",
-    tip: "Lar de Dubai, do edifício mais alto do mundo (Burj Khalifa) e ilhas artificiais.",
-    flag: "https://flagpedia.net/data/flags/w580/ae.webp",
   },
   {
     id: "IL",
