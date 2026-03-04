@@ -1,6 +1,6 @@
 # Discover Countries
 
-Um aplicativo web para jogo de adivinhação de países online e gratuito.
+Um aplicativo web para jogo de adivinhação de países.
 
 ![Preview do Projeto](public/screenshot.png)
 
