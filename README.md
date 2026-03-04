@@ -1,6 +1,6 @@
 # Discover Countries
 
-Um aplicativo web para jogo de adivinhação de países online e gratuito.
+Um aplicativo web para jogo de adivinhação de países.
 
 ![Preview do Projeto](public/screenshot.png)
 
@@ -51,4 +51,4 @@ O Discover Countries é um jogo simples e intuitivo que permite aos usuários de
 
 ---
 
-Desenvolvido por Paulo Neto em estudo da rocketseat
+Desenvolvido por Paulo Neto.
